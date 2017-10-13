@@ -1,0 +1,52 @@
+div.header {
+    color:black;
+    text-align:right;
+    padding:5px;
+}
+div.header a {
+    color:black ;
+    margin-right: 15px ;
+}
+div.header a:link {color: black} /* 未访问的链接 */
+div.header  a:hover {color: blue} /* 鼠标移动到链接上 */
+div.footer {
+    text-align:center;
+}
+div.footer a{
+    color:#B0B0B0 ;
+    font-size:small ;
+    letter-spacing:1px ;
+    margin-right: 15px ;
+}
+div.footer p{
+    color:#B0B0B0 ;
+    font-size:small ;
+}
+div.main {
+    text-align:center
+}
+input.text {
+    width: 550px ;
+    height: 30px ;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: #00A2FF;
+    background:url('http://ow47touqj.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20171013003153.png');
+    background-repeat: no-repeat ;
+    background-position:right;
+    border-right-width:0px ;
+    margin-right:0px;
+}
+input.btn{
+    color: white;
+    background-color: #00A2FF;
+    height: 34px;
+    width:100px ;
+    border:0px ;
+    border-left-width:0px ;
+    margin-left:0px ;
+}
+
+    /*a:visited {color: #00FF00}*/	/* 已访问的链接 */
+
+    /*a:active {color: #0000FF}*/	/* 选定的链接 */
